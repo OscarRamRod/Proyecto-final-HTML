@@ -1,7 +1,27 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
+#menu{
+  background-color: rgb(199, 171, 100);
+  height: 40px;
+}
+
+#seccion1{
+  background-image: url(../img/Portada.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+#lista1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+}
+
+.menu1{
+  list-style: none;
+}

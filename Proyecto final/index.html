@@ -3,98 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto final</title>
-  <link rel="stylesheet" href="estilos.css" />
+    <title>Libreria El Túnel</title>
+    <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
-
-  <!-- Header -->
   <header>
-    <div>
-      <h1>El Túnel</h1>
-      <div>
-        <input type="text" placeholder="Buscar..." />
-        <button>🔍</button>
-      </div>
-      <div>
-        <span>👤</span>
-        <span>❤️</span>
-        <span>🛒</span>
-      </div>
-    </div>
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Libros</a>
-      <a href="#">Los más leídos</a>
-      <a href="#">Accesorios</a>
-      <a href="#">Sucursal</a>
+    <h1 id="titulo"></h1> El Túnel</h1>
+    <input id="buscador" type="text" placeholder="Buscar..." />
+    <button id="button1">🔍</button>
+    <span>👤</span>
+    <span>❤️</span>
+    <span>🛒</span>
+    <nav id="menu">
+      <ul id="lista1">
+        <li class="menu1"><a href="#">Inicio</a></li>
+        <li class="menu1"><a href="#">Libros</a></li>
+        <li class="menu1"><a href="#">Los más leídos</a></li>
+        <li class="menu1"><a href="#">Accesorios</a></li>
+        <li class="menu1"><a href="#">Sucursal</a></li>
+      </ul>
     </nav>
+    <section id="seccion1">
+      <h2 id="texto1">...Creando nuevos mundos, historias y <br> 
+      recuerdos</h2>
+      <h4 id="texto2">"Vivir consiste en construir futuros recuerdos"</h4>
+    </section>
   </header>
 
-  <!-- Hero -->
-  <section>
-    <img src="img/Portada.jpg" alt="Portada">
-    <div>
-      <h2>...Creando nuevos mundos, historias y <br> 
-        recuerdos</h2>
-      <p>"Vivir consiste en construir futuros recuerdos"</p>
-    </div>
-  </section>
-
-  <!-- Recomendaciones -->
-  <section>
-    <h2>Recomendaciones</h2>
-    <div>
-      <!-- Repetir estructura por cada libro -->
+  <main>
+    <section>
+      <h2>Recomendaciones</h2>
       <div>
-        <img src="img/hp.jpg" alt="Harry Potter" />
-        <p>Harry Potter y la piedra filosofal</p>
-        <p>J.K. Rowling</p>
-        <button>VER MÁS</button>
+        <div>
+          <img src="img/hp.jpg" alt="Harry Potter" />
+          <p>Harry Potter y la piedra filosofal</p>
+          <p>J.K. Rowling</p>
+          <button>VER MÁS</button>
+        </div>
       </div>
-      <!-- Añadir más libros similares -->
-    </div>
-  </section>
+    </section>
 
-  <!-- Libros -->
-  <section>
-    <h2>Libros</h2>
-    <div>
+    <section>
+      <h2>Libros</h2>
       <div>
-        <img src="img/rayuela.png" alt="Rayuela" />
-        <p>Rayuela</p>
-        <p>Julio Cortázar</p>
-        <p>$445.00</p>
-        <button>COMPRAR</button>
+        <div>
+          <img src="img/rayuela.png" alt="Rayuela" />
+          <p>Rayuela</p>
+          <p>Julio Cortázar</p>
+          <p>$445.00</p>
+          <button>COMPRAR</button>
+        </div>
       </div>
-      <!-- Más libros... -->
-    </div>
-    <div>
-      <a href="#">Ver más</a>
-    </div>
-  </section>
+      <div>
+        <a href="#">Ver más</a>
+      </div>
+    </section>
 
-  <!-- Conócenos -->
-  <section>
-    <img src="img/Libreria.jpg" alt="Libreria">
-    <h2>Conócenos</h2>
-    <div>
-      <p>
-        El Túnel es una cafetería ideal para los amantes de la literatura...<br>
-        <br>
-        Además de su servicio de venta de libros y productos en línea puedes visitar <br>
-        nuestra sucursal y acompañar tu lectura con una taza de café o bebida de tu <br>
-        elección, o bien, disfrutar de los diversos eventos culturales que tenemos para <br>
-        tí. <br>
-        <br>
-        Siguenos en redes sociales y mantente atento a la cartelera de eventos. <br>
-        <br>
-        ¡Te esperamos!
-      </p>
-    </div>
-  </section>
+    <section>
+      <img src="img/Libreria.jpg" alt="Libreria">
+      <h2>Conócenos</h2>
+      <div>
+        <p>
+          El Túnel es una cafetería ideal para los amantes de la literatura...<br>
+          <br>
+          Además de su servicio de venta de libros y productos en línea puedes visitar <br>
+          nuestra sucursal y acompañar tu lectura con una taza de café o bebida de tu <br>
+          elección, o bien, disfrutar de los diversos eventos culturales que tenemos para <br>
+          tí. <br>
+          <br>
+          Siguenos en redes sociales y mantente atento a la cartelera de eventos. <br>
+          <br>
+          ¡Te esperamos!
+        </p>
+      </div>
+    </section>
+  </main>
 
-  <!-- Footer -->
   <footer>
     <div>
       <div>
