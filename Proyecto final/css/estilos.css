@@ -3,16 +3,34 @@
   padding: 0;
 }
 
+/* header */
+
+#titulo{
+  position: relative;
+  left: 45%;
+  top: 10px;
+  color: brown;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+#caja1{
+  position: relative;
+  left: 80%;
+  bottom: 30px;
+}
+
+#button1{
+  margin-right: 50px;
+}
+
 #menu{
   background-color: rgb(199, 171, 100);
   height: 40px;
 }
 
-#seccion1{
-  background-image: url(../img/Portada.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 150px;
+.menu1{
+  list-style: none;
 }
 
 #lista1{
@@ -22,6 +40,260 @@
   height: 40px;
 }
 
-.menu1{
+#seccion1{
+  background-image: url(../img/Portada.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#texto1{
+  font-size: 40px;
+}
+
+#texto2{
+  font-size: 25px;
+}
+
+#recuerdos{
+  position: relative;
+  left: 150px;
+}
+
+#libros1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+
+#libro1{
+  width: 300px;
+  height: 350px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portada{
+  width: 183px;
+  height: 220px;
+}
+
+.btn2{
+  width: 80px;
+  background-color: red;
+}
+
+#libro2{
+  width: 300px;
+  height: 350px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.portada2{
+  width: 183px;
+  height: 220px;
+
+}
+
+.btn3{
+  width: 80px;
+  background-color: red;
+}
+
+#libro3{
+  width: 300px;
+  height: 350px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.portada3{
+  width: 183px;
+  height: 220px;
+
+}
+
+.btn4{
+  width: 80px;
+  background-color: red;
+}
+
+#libro4{
+  width: 300px;
+  height: 350px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.portada4{
+  width: 183px;
+  height: 220px;
+
+}
+
+.btn5{
+  width: 80px;
+  background-color: red;
+}
+
+#Recomendaciones{
+  margin: 50px;
+  color: red;
+}
+
+#libros2{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+
+#libro5{
+  width: 300px;
+  height: 350px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portada5{
+  width: 183px;
+  height: 220px;
+}
+
+.btn6{
+  width: 80px;
+  background-color: red;
+}
+
+#libro6{
+  width: 300px;
+  height: 350px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portada6{
+  width: 183px;
+  height: 220px;
+}
+
+.btn7{
+  width: 80px;
+  background-color: red;
+}
+
+#libro7{
+  width: 300px;
+  height: 350px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portada7{
+  width: 183px;
+  height: 220px;
+}
+
+.btn8{
+  width: 80px;
+  background-color: red;
+}
+
+#Libros{
+  margin: 50px;
+  color: red;
+}
+
+#Conocenos{
+  margin: 50px;
+  color: red;
+  font-size: 35px;
+
+}
+
+.Libreria{
+  width: 45%;
+}
+
+#caja3{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+
+}
+
+#conocemas{
+  width: 40%;
+}
+
+footer{
+  background-color: rgb(199, 171, 100);
+  
+}
+
+#Teesperamos{
+  color: red;
+  position: relative;
+  left: 150px;
+}
+
+#caja4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna{
+  width: 30%;
+  color: white;
+}
+
+#menudo2{
   list-style: none;
+}
+
+.enlace{
+  color: white;
+  text-decoration: none;
+}
+
+hr{
+  color: aliceblue;
+}
+
+#derechos{
+  color: white;
+  position: relative;
+  left: 40%;
+  margin-top: 30px;
 }

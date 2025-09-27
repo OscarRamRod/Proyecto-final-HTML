@@ -8,12 +8,15 @@
 </head>
 <body>
   <header>
-    <h1 id="titulo"></h1> El Túnel</h1>
-    <input id="buscador" type="text" placeholder="Buscar..." />
-    <button id="button1">🔍</button>
-    <span>👤</span>
-    <span>❤️</span>
-    <span>🛒</span>
+    <h1 id="titulo">El Túnel</h1>
+    <section id="caja1">
+      <input id="buscador" type="text" placeholder="Buscar..." />
+      <button id="button1">🔍</button>
+      <span>👤</span>
+      <span>❤️</span>
+      <span>🛒</span>
+    </section>
+    
     <nav id="menu">
       <ul id="lista1">
         <li class="menu1"><a href="#">Inicio</a></li>
@@ -23,48 +26,81 @@
         <li class="menu1"><a href="#">Sucursal</a></li>
       </ul>
     </nav>
+
     <section id="seccion1">
       <h2 id="texto1">...Creando nuevos mundos, historias y <br> 
-      recuerdos</h2>
+      <span id="recuerdos">recuerdos </span>
+    </h2>
       <h4 id="texto2">"Vivir consiste en construir futuros recuerdos"</h4>
     </section>
   </header>
 
   <main>
-    <section>
-      <h2>Recomendaciones</h2>
-      <div>
-        <div>
-          <img src="img/hp.jpg" alt="Harry Potter" />
-          <p>Harry Potter y la piedra filosofal</p>
-          <p>J.K. Rowling</p>
-          <button>VER MÁS</button>
+      <h2 id="Recomendaciones">Recomendaciones</h2>
+      <section id="libros1">
+        <div id="libro1">
+          <img class="portada" src="img/hp.jpg" alt="Harry Potter" />
+          <h3 class="lbr"> Harry Potter y la piedra filosofal</h3>
+          <p id="autor"> J.K. Rowling</p>
+          <button class="btn2">Ver más </button>
         </div>
-      </div>
-    </section>
+        
+        <div id="libro2">
+          <img class="portada" src="img/hp.jpg" alt="Harry Potter" />
+          <h3 class="lbr"> Harry Potter y la piedra filosofal</h3>
+          <p id="autor"> J.K. Rowling</p>
+          <button class="btn3">Ver más </button>
+        </div>
 
-    <section>
-      <h2>Libros</h2>
-      <div>
-        <div>
-          <img src="img/rayuela.png" alt="Rayuela" />
-          <p>Rayuela</p>
-          <p>Julio Cortázar</p>
+        <div id="libro3">
+          <img class="portada3" src="img/hp.jpg" alt="Harry Potter" />
+          <h3 class="lbr"> Harry Potter y la piedra filosofal</h3>
+          <p id="autor"> J.K. Rowling</p>
+          <button class="btn4">Ver más </button>
+        </div>
+
+        <div id="libro4">
+          <img class="portada4" src="img/hp.jpg" alt="Harry Potter" />
+          <h3 class="lbr"> Harry Potter y la piedra filosofal</h3>
+          <p id="autor"> J.K. Rowling</p>
+          <button class="btn5">Ver más </button>
+        </div>
+        </section>
+
+      <h2 id="Libros">Libros</h2>
+      <section id="libros2">
+        <div id="libro5">
+          <img class="portada5" src="img/rayuela.png" alt="Rayuela"/>
+          <h3 class="lbr">Rayuela </h3>
+          <p id="autor"> Julio Cortázar </p>
           <p>$445.00</p>
-          <button>COMPRAR</button>
+          <button class="btn6"> Comprar </button>
         </div>
-      </div>
-      <div>
-        <a href="#">Ver más</a>
-      </div>
+      
+        <div id="libro6">
+          <img class="portada6" src="img/rayuela.png" alt="Rayuela"/>
+          <h3 class="lbr">Rayuela </h3>
+          <p id="autor"> Julio Cortázar </p>
+          <p>$445.00</p>
+          <button class="btn7"> Comprar </button>
+        </div>
+
+        <div id="libro7">
+          <img class="portada7" src="img/rayuela.png" alt="Rayuela"/>
+          <h3 class="lbr">Rayuela </h3>
+          <p id="autor"> Julio Cortázar </p>
+          <p>$445.00</p>
+          <button class="btn8"> Comprar </button>
+        </div>
+
     </section>
 
-    <section>
-      <img src="img/Libreria.jpg" alt="Libreria">
-      <h2>Conócenos</h2>
-      <div>
+    <section id="caja3">
+            
+      <div id="conocemas">
+        <h2 id="Conocenos">Conócenos</h2>
         <p>
-          El Túnel es una cafetería ideal para los amantes de la literatura...<br>
+          El Túnel es una cafebrería ideal para los amantes de la literatura...<br>
           <br>
           Además de su servicio de venta de libros y productos en línea puedes visitar <br>
           nuestra sucursal y acompañar tu lectura con una taza de café o bebida de tu <br>
@@ -73,16 +109,19 @@
           <br>
           Siguenos en redes sociales y mantente atento a la cartelera de eventos. <br>
           <br>
-          ¡Te esperamos!
+          <span id="Teesperamos"> ¡Te esperamos! </span>
         </p>
+      
       </div>
+      <img class="Libreria" src="img/Libreria.jpg" alt="Libreria">
     </section>
   </main>
 
   <footer>
-    <div>
-      <div>
+    <div id="caja4">
+      <div id="columna1" class="columna">
         <h3>El Túnel</h3>
+        <hr>
         <p>Un espacio para los amantes de la literatura. Encuentra la mejor <br>
           selección de libros, accesorios y un acogedor espacio en la CDMX <br>
           para leer y tomar un café con tu libro favorito. <br>
@@ -93,27 +132,29 @@
         <p>📞 55 87 09 07 91</p>
         <p>📧 eltunellibros@gmail.com</p>
       </div>
-      <div>
+      <div id="columna2" class="columna">
         <h3>Información</h3>
-        <ul>
-          <li><a href="#">Acerca de El Túnel</a></li>
-          <li><a href="#">Tarjeta de cliente frecuente</a></li>
-          <li><a href="#">Ventas por mayoreo</a></li>
-          <li><a href="#">Facturación</a></li>
-          <li><a href="#">Contáctanos</a></li>
-          <li><a href="#">Aviso de privacidad</a></li>
-          <li><a href="#">Términos y condiciones</a></li>
+        <hr>
+        <ul id="menudo2">
+          <li><a class="enlace" href="#">Acerca de El Túnel</a></li>
+          <li><a class="enlace" href="#">Tarjeta de cliente frecuente</a></li>
+          <li><a class="enlace" href="#">Ventas por mayoreo</a></li>
+          <li><a class="enlace" href="#">Facturación</a></li>
+          <li><a class="enlace" href="#">Contáctanos</a></li>
+          <li><a class="enlace" href="#">Aviso de privacidad</a></li>
+          <li><a class="enlace" href="#">Términos y condiciones</a></li>
         </ul>
       </div>
-      <div>
+      <div id="columna3" class="columna">
         <h3>Suscríbete</h3>
+        <hr>
         <p>Registrate para recibir noticias de promociones, eventos y <br>
           actualizaciones</p>
-        <input type="email" placeholder="Ingresa tu email" />
-        <button>Enviar</button>
+        <input id="buscador2" type="email" placeholder="Ingresa tu email" />
+        <button id="btnenviar">Enviar</button>
       </div>
     </div>
-    <p>&copy; 2024 El Túnel. Todos los derechos reservados. Diseñado por Escuela de Código ADIP</p>
+    <p id="derechos">&copy; 2024 El Túnel. Todos los derechos reservados. Diseñado por Escuela de Código ADIP</p>
   </footer>
 </body>
 </html>
